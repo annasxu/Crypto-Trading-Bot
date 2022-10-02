@@ -6,8 +6,8 @@ import math
 
 start_date = '1 Jan 2022'
 
-api_key = 'OvbvT36ryyvSgDT4AKvqasX93G3WzeA4RJBjXSJzPyhT4ZmZCaxKT1oKo0PTr0Vq'
-api_secret = 'HBOEegU7A2IGEXexsxlBsfoGoVFs1JqKjOK6B4imS7h6t0Ky7nxXKxUddo2vQ3fp'
+api_key = ''
+api_secret = ''
 #client = Client(api_key, api_secret,tld='us')
 binance_client = Client(api_key, api_secret)
 binsizes = {"1m": 1, "5m": 5, "1h": 60, "1d": 1440}
