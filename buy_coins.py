@@ -2,8 +2,8 @@ from binance.client import Client
 import time  
 from check_decimals import check_decimals
 
-api_key = 'lYvlv5kPTPaXotnXhEN17tyV4JP7EEyBHl5bMnVMo7Nrvi6rahX56TrkPcFyKTrq'
-api_secret = 'GCFMK0fV4EZ4LC5ZoGofa93AiZDMkWCJsUwIMgDjEse9FiAwcUKlnxRSkoun7JrU'
+api_key = ''
+api_secret = ''
 binance_client = Client(api_key, api_secret,tld='us')
 
 def buy_coins(array):

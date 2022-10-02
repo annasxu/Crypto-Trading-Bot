@@ -2,8 +2,8 @@ from binance.client import Client
 import time  
 from check_decimals import check_decimals
 
-api_key = 'i8nAiRjNy637KnhLoAozKcuiYCiOT8haSWPddqRV2t3ksUsUEZXFPNDxTbFYO6V9'
-api_secret = 'qRywPJZbZL2bwwatJChy17RSfvXvJtuZJ32FT5beAyrh6v09DjjsEtGNSXxGfZBV'
+api_key = ''
+api_secret = ''
 binance_client = Client(api_key, api_secret,tld='us')
 
 def sell_coins():
